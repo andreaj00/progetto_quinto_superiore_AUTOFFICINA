@@ -1,0 +1,41 @@
+.accordion {
+    background-color: #8c8c8c;/*grifio chiaro*/
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.accordion:after {
+    content: '\25BC';/*freccia in basso*/
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\25B2";/*freccia in alto*/
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: #333333;/*grigio*/
+    max-height: 0;
+    overflow: hidden; /* rende il campo dell'accordion invisibile' */
+    transition: max-height 0.2s ease-out; /* rellenta l'animazione' */
+}
+/*bordo sottto delal tabella*/
+tr.border_bottom td,tr.border_bottom th {
+  border-bottom:2px solid;
+  padding:15px;
+}

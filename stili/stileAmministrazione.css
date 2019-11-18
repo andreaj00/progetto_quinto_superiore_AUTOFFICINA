@@ -1,0 +1,6 @@
+body{
+    font-family: "Garamond", Times, serif;
+    color: #cc8800;/*beige*/
+    background: #000000 url("../img/sfondoAmministrazione.jpg") no-repeat center fixed !important;
+    background-size: 100%;
+}

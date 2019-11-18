@@ -1,0 +1,97 @@
+body{
+    font-family: "Garamond", Times, serif;
+    color: #cc8800;/*beige*/
+    background: #000000 url("../img/sfondo.jpg") no-repeat center fixed ;
+    background-size: 100%;
+}
+
+table{
+    /*margin-left:auto; 
+    margin-right:auto;*/
+    border-left:0px;
+    border-spacing:20px ;
+    border-left:0px
+}
+/*bottoni*/
+.bottone{
+    background-color: #666666;/*grigio*/
+    border: none;
+    color: #bfbfbf;/*grigio chiaro*/
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+/*quando sto sopra lo sfondo diventa piu scuro*/
+.bottone:hover{
+    background-color:#404040;/*grigio scuro*/
+}
+/*bottone disabilitato*/
+.bottone:disabled {
+    background: #d9d9d9;/*grigio chiaro*/
+    color:#4d4d4d;/*grigio scuro*/
+    cursor: not-allowed;/*apapre il divieto (tipo il segnale stradale)*/
+}
+
+/*come appaiono i link*/
+.link{
+    color:  #cc8800;/*beige*/
+    text-decoration: underline;
+}
+
+/*quando un link dell'indice gli viene passato sopra il mouse*/
+.link:hover{
+    color:  #ffb31a;/*giallo chiaro*/
+    text-decoration: underline;
+    cursor: pointer;/*il mouse diventa la manina*/
+}
+
+/*sidebar*/
+.sidebar{
+    background-color: #666666;/*grigio*/
+    height: 100%;
+    width: 310px;
+    position: fixed!important;
+    z-index: 1;
+    overflow: auto;
+}
+
+
+/*href dell'accordion*/
+.href-accordion{
+    background-color: #595959!important; /*grigio scuro*/
+    color:  #cc8800!important; /*bedge*/
+
+}
+
+.idPersonale{
+    top: 10px;
+    right: 10px!important;
+    position: absolute;
+}
+
+/*non mi evidenzia il bottone quando cliccato*/
+.w3-button:focus {
+    outline: none!important;
+}
+
+input{
+    background-color: #a6a6a6;/*grigio*/
+    border-color: #666666;
+    color: #262626;/*grigio chiaro*/
+}
+
+select, option{
+
+    background: #a6a6a6;/*grigio*/
+    border-color: #666666;
+    color: #262626;/*grigio chiaro*/
+}
+textArea{
+    background-color: #a6a6a6;/*grigio*/
+    border-color: #666666;
+    color: #262626;/*grigio chiaro*/
+}
